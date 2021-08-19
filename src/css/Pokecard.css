@@ -1,18 +1,18 @@
 .Pokecard {
-    background-color: lightgrey;
+    background-color: white;
     padding: 20px;
-    width: 150px;
+    width: 300px;
     height: min-content;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 10px;
+    margin: 1rem;
+    box-shadow: 7px 10px 12px -5px rgba(0, 0, 0, 0.56);
 }
 
 .Pokecard-title {
-    color: blue;
-    font-size: 20px;
+    font-size: 30px;
     margin: 5px;
 }
 
